@@ -1,7 +1,7 @@
-import balanceReucer from './balance';
+import balanceReducer from './balance';
 import * as constants from '../actions/constants';
 
-describe ('balanceReDucer', () => {
+describe ('balanceReducer', () => {
   it('sets a balance', () => {
     const balance = 10;
 
